@@ -12,4 +12,4 @@ while (true){
 }
  console.log(length)
 
-console.log('strsdfgdfgdfg'.length)
+console.log(str.length)
