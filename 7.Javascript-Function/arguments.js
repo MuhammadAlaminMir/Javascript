@@ -15,33 +15,33 @@
 
 /*******Parameter practice */
 
-// function add (a, b) {
-//     var result = a + b
-//     return(result)
+function add (a, b) {
+    var result = a + b
+    return(result)
 
-// }
+}
 
-// // add(10, 20)
-// // console.log(add(10, 20))
-
-
-// var arr1 = [1, 3, 5]
-// var arr2 = [1, 2, 4, 8, 5]
-// var arr3 = [6, 4, 7]
+// add(10, 20)
+// console.log(add(10, 20))
 
 
+var arr1 = [1, 3, 5]
+var arr2 = [1, 2, 4, 8, 5]
+var arr3 = [6, 4, 7]
 
-// function sumOfArray (arr) {
-//     var sum = 0
-//     for(var i = 0; i < arr.length; i++){
-//         sum += arr[i]
-//     }
-//     console.log(sum)
-// }
+
+
+function sumOfArray (arr) {
+    var sum = 0
+    for(var i = 0; i < arr.length; i++){
+        sum += arr[i]
+    }
+    console.log(sum)
+}
  
-// sumOfArray(arr1)
-// sumOfArray(arr2)
-// sumOfArray(arr3)
+sumOfArray(arr1)
+sumOfArray(arr2)
+sumOfArray(arr3)
 
 
 /******Arguments practice */
