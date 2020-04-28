@@ -16,4 +16,5 @@ var name = 'alamin'
 console.log('My name is ' + name +' i am', + age + ' years old')  //old system
 console.log(`My name is ${name}, i am ${age} years old. I am ${age < 18 ? 'not ' : ''}adult`) //es6 temp
 
-console.log(s.includes('fuck of'))
+console.log(s.includes(''))  //check that the word in there or not
+console.log(name.repeat(2)) //for repeat something
