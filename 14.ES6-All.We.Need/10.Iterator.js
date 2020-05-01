@@ -34,7 +34,8 @@
 // console.log(iterate.next());
 // console.log(iterate.next());
 
-//es6 advanced iterator system
+//es6 advanced iterator system****
+
 //any kind of object which has symbol.iterator property its called iterator object
 //we can use symbol.iterator to check that any object is iterable or not
 
