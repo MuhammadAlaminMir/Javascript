@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="title" class="text-center my-3">Working with Dom</h1>
+
+            <ul id="list" class="list-group">
+                <li class="list-group-item" id="one">one</li>
+                <li class="list-group-item">two</li>
+                <li class="list-group-item">three</li>
+            </ul>
+            <br /><br />
+            <button class="btn btn-success" id="btn">ADD ME</button>
+            <!--<div class="box my-4" id="box">
+                <p>
+                    (<span id="x-value">0</span>, <span id="y-value">0</span>)
+                </p>
+            </div>-->
+
+            <div class="form-group">
+                <label for="name">What is your Name:</label>
+                <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Enter Name"
+                />
+                <b> <p id="show-name"></p></b>
+            </div>
+            <div class="form-check">
+                <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="gridCheck1"
+                    name="skills"
+                    value="C Programming"
+                />
+                <label class="form-check-label" for="gridCheck1">
+                    C Programming
+                </label>
+            </div>
+            <div class="form-check">
+                <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="gridCheck2"
+                    name="skills"
+                    value="Java Programming"
+                />
+                <label class="form-check-label" for="gridCheck1">
+                    Java Programming
+                </label>
+            </div>
+            <div class="form-check">
+                <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="gridCheck3"
+                    name="skills"
+                    value="Javascript"
+                />
+                <label class="form-check-label" for="gridCheck1">
+                    Javascript
+                </label>
+            </div>
+            <div class="form-check">
+                <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="gridCheck4"
+                    name="skills"
+                    value="Python"
+                />
+                <label class="form-check-label" for="gridCheck1">
+                    Python
+                </label>
+            </div>
+            <p class="lead">
+                <strong>Selected Skills: <span id="result"> </span></strong>
+            </p>
+        </div>
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"
+        ></script>
+        <script src="13.Input-Element-Event.js"></script>
+        <script src="14.checkBox-Event.js"></script>
+        <script src="15.Advanced-Event-handling.js"></script>
+    </body>
+</html>
