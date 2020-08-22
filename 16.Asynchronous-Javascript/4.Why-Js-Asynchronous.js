@@ -2,7 +2,7 @@
 // Because Javascript is A Single Threaded Language Its means..
 //Javascript Process One task at a time
 
-//thats why the Asynchronous trams come so that we can handle multiply work ar a time
+//thats why the Asynchronous trams come so that we can handle multiply work at a time
 //and the process happened as like that no ones depend in other functionality
 
 //Javascript Behind the scene use Two type of data structure to handle Variable and Function
