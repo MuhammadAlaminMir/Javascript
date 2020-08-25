@@ -1,6 +1,7 @@
+// Ajax = Asynchronous Javascript and xmt
 //Ajax implementation with the help of Call back
 
-//Every website gives up a  constructor thats called XmlHttp request
+//Every website gives up a  constructor/object thats called XmlHttp request
 //using that constructor any website can pass http request to any website
 
 //Http = (Hyper Text Transfer protocol)

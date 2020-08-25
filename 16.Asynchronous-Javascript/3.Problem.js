@@ -22,7 +22,7 @@
 
 //In hare we got the Asynchronous problem
 // hare we declare a variable result and set (undefined) or nothing to its value
-//and then we declare asynchronous function (setTimeOut) that why out function called instantly and set result value undefined
+//and then we declare asynchronous function (setTimeOut) thats why out function called instantly and set result value undefined
 //and store it into output and console.log
 //then after 3 second setTimeOut function set the result value name
 //in hare our browser work fast thats why we got undefined

@@ -3,14 +3,20 @@
 //we can declare a new function and send it to the past function then past function will get it and
 //work with it and at last we got a value/data from multiply function like:
 
-function sample (a, b, sum){
-    var c = a - b
-    var d = a +b
-    var result = sum(c, d)
-    return result
+function sample(a, b, cb) {
+    var c = a - b;
+    var d = a + b;
+    var result = cb(c, d);
+    return result;
 }
- function sum (a, b){
-     return a + b
- }
+function sum(a, b) {
+    return a + b;
+}
 
- console.log(sample(5, 10, sum))
+var result = sample(5, 10, sum);
+console.log(result);
+
+var result2 = sample(5, 10, function (c, d) {
+    return c - d;
+});
+console.log(result2);

@@ -15,7 +15,7 @@ let sqrArr = arr.map((v) => v * v);
 
 console.log(sqrArr);
 
-//passing a callback into a Asynchronous function
+// passing a callback into a Asynchronous function
 
 // function asyncMap(arr, cb) {
 //     return arr.map((v) => {
@@ -29,8 +29,8 @@ console.log(sqrArr);
 
 function asyncMap(arr, cb) {
     return arr.map((v) => {
-        // setTimeout(cb.bind(null, v), 0);
-        setTimeout(() => cb(v), 0);
+        setTimeout(cb.bind(null, v), 0);
+        // setTimeout(() => cb(v), 0);
     });
 }
 

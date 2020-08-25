@@ -10,7 +10,7 @@ const delay = (s) => new Promise((resolve) => setTimeout(resolve, s * 1000));
 // delay(5).then(() => console.log("5 seconds delay"));
 
 // //1.resolve is a by default resolve promise
-// //its creat an instant resolved promise
+// //its create an instant resolved promise
 
 // let p1 = Promise.resolve("test");
 // p1.then((v) => console.log(v));
