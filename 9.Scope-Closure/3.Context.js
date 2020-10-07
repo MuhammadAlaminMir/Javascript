@@ -13,24 +13,23 @@ context then one by one it compiling every var, func , loop etc
 
 function a() {
     b();
-    console.log("I an a function a");
+    console.log('I an a function a');
 }
 function b() {
-    c();
-    console.log("I an a function b");
+    d();
+    console.log('I an a function b');
 }
 function c() {
-    d();
-    console.log("I an a function c");
+    console.log('I an a function c');
 }
 function d() {
-    e();
-    console.log("I an a function d");
+    c();
+    console.log('I an a function d');
 }
 
 var x = 100;
 a();
-console.log("I am global function");
+console.log('I am global function');
 
 // when a executional context start then it create 2 phase
 //1. Creation phase
