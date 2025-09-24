@@ -1,5 +1,7 @@
 // JavaScript
 
+// Javascript is a high-level, object oriented, multi-paradigm programming language.
+
 /* JavaScript (JS) is a high-level, interpreted programming language primarily used to add interactivity to web pages. It is a dynamic, weakly-typed language with first-class functions and Prototype based OOP feature. While initially designed for client-side scripting in browsers, it is now also widely used on the server-side (Node.js) and in other environments. */
 
 /* History of JavaScript
