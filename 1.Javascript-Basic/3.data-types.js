@@ -1,86 +1,56 @@
-//javascript has two Structure of data
-1. //Primitive  data
-//those data types are primitives 
-/**
- * 1. String
- * 2.Number
- * 3.Boolean
- * 4.null
- * 5.NaN
- * 6.Undefined
- * 
- */
-//explanations 
-// 1. String: 
-//any thing that into a quotation is string
-//it can be a name , or number any thing
+// ====== PRIMITIVE DATA TYPES DEMO ======
 
-// 2. Number
-/**javascript has many type of number
- * 
- * Integer number : didn't have any  decimal
- * 
- * LIteral number = (any kind of number (2, 334, 24.34))
+// 1. NUMBER: Integers and floats
+let age = 25; // Integer
+let price = 19.99; // Float
+let notANumber = NaN; // Special "Not-a-Number" value
+let infinity = Infinity; // Special infinity value
 
-Constrict Number = Number(‘56’)
+// 2. STRING: Text data (immutable)
+let name = "Alice";
+let greeting = `Hello, ${name}!`; // Template literal
 
-We can convert a floating number to a Integer with number.praseInt
+// 3. BOOLEAN: Logical true/false
+let isStudent = true;
+let isEmployed = false;
 
-We can convert a Integer number to a floating with number.praseFloat*/
+// 4. UNDEFINED: Uninitialized variable
+let futureValue; // Automatically undefined
+console.log(futureValue); // undefined
 
+// 5. NULL: Intentional absence of value
+let emptyValue = null; // Explicitly set to "no value"
 
+// 6. SYMBOL: Unique identifier (ES6)
+const id1 = Symbol("user_id");
+const id2 = Symbol("user_id");
+console.log(id1 === id2); // false (always unique)
 
-/**
- * Programing has 2 more numbers type 
-Hexadecimal : using hax code
+// 7. BIGINT: Large integers (ES2020)
+const hugeNumber = 9007199254740991n; // 'n' suffix
+const anotherBigInt = BigInt("12345678901234567890");
 
-Octal( its complicated)
+// ====== TYPE CHECKING ======
+console.log(typeof age); // "number"
+console.log(typeof name); // "string"
+console.log(typeof isStudent); // "boolean"
+console.log(typeof futureValue); // "undefined"
+console.log(typeof emptyValue); // "object" (JS quirk!)
+console.log(typeof id1); // "symbol"
+console.log(typeof hugeNumber); // "bigint"
 
- * 
- * 
- */
+// ====== KEY CHARACTERISTICS ======
+// 1. IMMUTABILITY: Operations return new values
+let text = "hello";
+text.toUpperCase(); // Returns "HELLO" (new string)
+console.log(text); // Original unchanged: "hello"
 
- //NUll vs Undefined
- var NaN = ('abc' * 10) //NaN
+// 2. VALUE COMPARISON: Primitives compare by value
+let a = 10;
+let b = 10;
+console.log(a === b); // true (same value)
 
- var name = (null) //null
-
-var Infinity = (1/0); //Infinity
-
- /**
-  * Undefined : Not  defined any kind of value 
-
-    Null: defined null that means right now that property didn’t have any value 
-    But dynamically possible to set a value;
-
-  */
-/**
-     * Type Conversion:
-    Some times compiler convert type itself 
-
-    But most of the time we have to convert types
-
-    Type conversion means  change the type into another type like: */
-
-    //String to number : 
-    var str = '676'
-    Console.log (Number.parseInt(str))
-
-    //Number to string : 
-    var n = 545
-    Console.log (n.toString())
-
-    //anything to Boolean :
-    console.log(Boolean(anything))
-
-/**
-     * Falsy Value:
-    1.NaN
-    2.0,-0
-    3.undefined
-    4.Null
-    5.' ' = empty string
-
- */
-
-
+// 3. SPECIAL BEHAVIORS:
+console.log(null == undefined); // true (loose equality)
+console.log(null === undefined); // false (strict equality)
+console.log(5 + "5"); // "55" (type coercion)

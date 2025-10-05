@@ -1,4 +1,4 @@
-//Javascript have some reserved word 
+//Javascript have some reserved word
 
 //reserved words:
 /**
@@ -19,6 +19,6 @@
     double  	in  	static  	with  
  */
 
- /**In javascript this letters have a meaning so that developer 
-  * can use it but can't use for named any kind of variable
- */ 
+/**In javascript compiler this words has special meaning.
+ * that's why developer can use it but can't use for named any kind of variable, function, class etc.
+ */

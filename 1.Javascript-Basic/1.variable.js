@@ -1,3 +1,4 @@
+//variables are named memory locations, which can hold/store different types of data.
 //variable is Storage, which Value can be change in future.
 //Variable is a container for storing data values. In JavaScript, there are three ways to declare variables: var, let, and const.
 
@@ -16,6 +17,15 @@ const birthYear = 1998;
 
 var heKnowProgramming = true;
 
+// you have initialize const variable at the time of declaration
+// const pi; // This will throw an error because pi is not initialized
+
 //if you want to see value in console then type: console.log();
+
+// if you don't use const, var, or let keyword, then it will be treated as a global variable
+// Example:
+myName = "John Doe"; // re-assigning a new value to the variable
+age = 30; // re-assigning a new value to the variable
+// birthYear = 2000; // This will throw an error because birthYear is a constant and cannot be updated
 
 console.log(myName, age, heKnowProgramming);
