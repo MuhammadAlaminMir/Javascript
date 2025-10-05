@@ -3,7 +3,7 @@ var b = 20
 
 //a > b = true / false
 
-if (a > b) {
+if (a > b) { 
     console.log('A is bigger')
 }
 
