@@ -1,5 +1,11 @@
 // Core Features of JavaScript:
 
+/* 
+  JavaScript can change HTML content, attributes, and styles.
+  It can also handle events, validate forms, and communicate with servers asynchronously (AJAX).
+  In js single quote and double quote both are used to represent string data type.
+*/
+
 /**
   High-Level:
   Abstraction of low-level hardware details, enabling developers to focus on

@@ -4,6 +4,16 @@
 
 /* JavaScript (JS) is a high-level, interpreted programming language primarily used to add interactivity to web pages. It is a dynamic, weakly-typed language with first-class functions and Prototype based OOP feature. While initially designed for client-side scripting in browsers, it is now also widely used on the server-side (Node.js) and in other environments. */
 
+/* 
+    Javascript official name is ECMAScript
+    ECMA = European Computer Manufacturers Association
+    The Original JavaScript ES1, ES2, ES3 were released in 1997, 1998 and 1999 respectively.
+    The major update came with ES5 in 2009, introducing features like strict mode, JSON support, and array methods.
+    ES6 (also known as ECMAScript 2015) was a significant update that introduced classes, modules, arrow functions, let and const keywords, Promises, and more.
+    Since ES6, annual updates have been released (ES2016, ES2017, etc.), each adding new features and improvements to the language.
+
+*/
+
 /* History of JavaScript
 1995: 
     Brendan Eich, working at Netscape Communications, created JavaScript (initially named Mocha, then LiveScript) in just 10 days. It was designed to be a scripting language for Netscape Navigator 2.0 browser, complementing Java.
