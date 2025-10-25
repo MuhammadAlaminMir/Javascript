@@ -22,6 +22,16 @@ a -= 3; // a = a - 3 → 12
 a *= 2; // a = a * 2 → 24
 a /= 4; // a = a / 4 → 6
 
+// when we use + operator with string then it will concatenate the strings
+// ex: "my " + "name" = "my name"
+let str1 = "Hello, ";
+let str2 = "World!";
+let greeting = str1 + str2; // "Hello, World!"
+console.log(greeting);
+
+// Adding number and string will return string
+let mixed = "The answer is: " + 42; // "The answer is: 42"
+
 // 3. COMPARISON
 console.log(5 == "5"); // true (Loose equality - converts types)
 console.log(5 === "5"); // false (Strict equality - checks type)

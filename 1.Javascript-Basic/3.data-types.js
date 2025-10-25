@@ -7,8 +7,8 @@ let notANumber = NaN; // Special "Not-a-Number" value
 let infinity = Infinity; // Special infinity value
 
 // 2. STRING: Text data (immutable)
-let name = "Alice";
-let greeting = `Hello, ${name}!`; // Template literal
+let myName = "Alice";
+let greeting = `Hello, ${myName}!`; // Template literal
 
 // 3. BOOLEAN: Logical true/false
 let isStudent = true;
