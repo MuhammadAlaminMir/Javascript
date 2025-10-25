@@ -26,7 +26,7 @@ var rect = {
 
 // rect.draw()
 
-                                        //***** This keyword in OOP *******/
+                    //***** This keyword in OOP *******/
 
         // when this use into a object that time this refer that object only
         //if this keyword use outside a object its refer window object 
@@ -35,8 +35,8 @@ var rect = {
         //thats way value of this can be change
 
 
-                                        /*** Class in OOP  ****/
-                                        //we can declare oop class in two ways
+          /*** Class in OOP  ****/
+            //we can declare oop class in two ways
                                         //1.factory pattern
                                         //2.constructor pattern
 
@@ -81,7 +81,7 @@ var rect = {
         //Constructor pattern template*****
 
         //constructor pattern clear then factory pattern 
-// when we work with constructor pattern we have to declare its fast letter in uppercase or capital letter
+    // when we work with constructor pattern we have to declare its fast letter in uppercase or capital letter
         //when we creating a constructor temp it work like a normal function in hare we have defined
         //value after = sign colone(:) its works hare
         //in constructor temp we have to declare this key in front of every properties and method
