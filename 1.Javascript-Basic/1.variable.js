@@ -15,12 +15,11 @@ let age = 25;
 const birthYear = 1998;
 // const birthYear = 1999; // if you declare it again, then This will throw an error because birthYear is a constant and cannot be re-declared
 
-var heKnowProgramming = true;
 
 // you have initialize const variable at the time of declaration
 // const pi; // This will throw an error because pi is not initialized
 
-//if you want to see value in console then type: console.log();
+var heKnowProgramming = true;
 
 // if you don't use const, var, or let keyword, then it will be treated as a global variable
 // Example:
@@ -28,4 +27,5 @@ myName = "John Doe"; // re-assigning a new value to the variable
 age = 30; // re-assigning a new value to the variable
 // birthYear = 2000; // This will throw an error because birthYear is a constant and cannot be updated
 
+ //if you want to see value in console then type: console.log();
 console.log(myName, age, heKnowProgramming);
