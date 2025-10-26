@@ -1,32 +1,51 @@
-//Javascript string method
 
-var a = "I am ";
-var b = "alamin ";
+// common JavaScript String methods with clear comments.
 
-var c = a.concat(b); //concat method
-//console.log(c);
 
-console.log(c.charAt(5)); //charAt method = for find a character
 
-console.log(c.startsWith("I")); //startsWith = check the start
+// Basic string pieces
+const a = "I am ";
+const b = "alamin "; // note trailing space for demonstration
 
-console.log(c.endsWith(" ")); // endsWith = check the end
+// Concatenate two strings
+const c = a.concat(b); // "I am alamin "
 
-console.log("abc".toUpperCase()); //.toUpperCase = convert to uppercase
+// Find character at a specific index (0-based)
+console.log(c.charAt(5)); // output: "a" (character at index 5)
 
-console.log(a.toUpperCase()); //.toUpperCase = convert to uppercase
+// Check how the string starts / ends
+console.log(c.startsWith("I")); // output: true
+console.log(c.endsWith(" "));   // output: true (because b had a trailing space)
 
-console.log("abc".toLowerCase()); //.toLowerCase = convert to Lowercase
+// Case conversion
+console.log("abc".toUpperCase()); // output: "ABC"
+console.log(a.toUpperCase());     // output: "I AM "
 
-console.log("      alamin   ".trim()); //.trim() = for removing extra space
+console.log("ABC".toLowerCase()); // output: "abc"
 
-console.log(c.split(" ")); //split = for convert a string to a array
+// Remove surrounding whitespace
+console.log("      alamin   ".trim()); // output: "alamin"
 
-var f = "amer soner  ";
-console.log(f.indexOf("s"));
+// Split a string into an array by a separator
+console.log(c.split(" ")); // output: [ 'I', 'am', 'alamin', '' ] (last empty because of trailing space)
 
-console.log(f.search("soner"));
+// Search and matching examples
+const f = "amer soner  "; // two trailing spaces for demonstration
+console.log(f.indexOf("s"));          // output: 5 (first index of "s")
+console.log(f.search("soner"));       // output: 5 (position of the match)
+console.log(f.match(/s/));            // output: [ 's', index: 5, input: 'amer soner  ', groups: undefined ]
 
-console.log(f.slice(5, 10));
+// Using a global regex to get all matches
+const arr = f.match(/s/g);
+console.log(arr); // output: [ 's', 's' ] (all matches of "s")
 
-console.log(f.replace("  ", " bangla"));
+// Extract substrings
+console.log(f.slice(5, 10));     // output: "soner"
+console.log(f.substring(5, 10)); // output: "soner" (similar behavior here)
+
+// Replace (note: replace will only replace the first match for string pattern)
+console.log(f.replace("  ", " bangla")); // replaces the double spaces with " bangla"
+
+// Check inclusion of a substring (returns boolean)
+const inclu = f.includes("soner"); // true if "soner" appears in f
+console.log(inclu); // output: true
