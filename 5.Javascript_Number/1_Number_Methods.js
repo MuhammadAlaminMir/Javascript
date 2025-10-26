@@ -8,6 +8,7 @@ console.log(num.toPrecision(4)); // "123.5"
 
 // toString(radix): Converts a number to a string. You can specify the base (radix).
 console.log((255).toString(16)); // "ff" (hexadecimal)
+console.log((255).toString(8)); // "377" (octal)
 console.log((8).toString(2)); // "1000" (binary)
 
 // toExponential(): Returns a string in exponential notation
