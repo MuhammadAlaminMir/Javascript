@@ -14,6 +14,10 @@ var arr3  = arr.concat(arr2)//for add two array
 console.log(Array.isArray(arr))//isArray for ensure the current array is relay an array ?
 
 var arr4 = Array.from(arr)//for copy an array
+// we can create an array from any iterable object like string ,set ,map etc using Array.from()
+let s = "hello"
+var arr5 = Array.from(s)
+// arr5 will be ['h','e','l','l','o']
 
 console.log(arr4)
 
