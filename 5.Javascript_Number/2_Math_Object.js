@@ -10,3 +10,8 @@ console.log(Math.min(10, 20, 5)); // 5  (finds the smallest)
 console.log(Math.sqrt(64)); // 8  (square root)
 console.log(Math.abs(-5)); // 5  (absolute value)
 console.log(Math.pow(2, 3)); // 8  (2 to the power of 3)
+
+// we can also use Math object for array operations like finding max and min in an array
+var numbers = [10, 5, 20, 15];
+console.log(Math.max(...numbers)); // 20
+console.log(Math.min(...numbers)); // 5
