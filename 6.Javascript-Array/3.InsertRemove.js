@@ -12,7 +12,7 @@ arr.unshift(0)//add a element at fast in a array
 arr.splice(3, 0, 10, 11)//to add a element in a specific location
 
 /**(add ) fast declare .splice then give the starting index, then 
- * give value how much element he delete, then give it the new value
+ * give value how much element it should delete, then give it the new value
 */
 
 //arr[] = undefined 
