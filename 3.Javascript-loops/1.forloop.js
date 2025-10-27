@@ -3,11 +3,9 @@
 for (var i = 0; i < 1000; i++) {
   //console.log((i + 1),'alamin')
 }
-
-//at fast we have give a statement like (for, if , else, function)
-
-//in for loop at fast declare for statement
-//then give it a initializer (i) into a fast brackets then close it with ;
+// at first write for then give it a open bracket
+// then give it a initializer ; 
+// give it a variable with var  and assign it a value
 
 //then git it a condition and close it ;
 
