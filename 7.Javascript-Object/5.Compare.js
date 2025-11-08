@@ -16,6 +16,7 @@ console.log(false)
 }
 
 console.log(obj === obj2)
+// this will return false because in js two object are equal only when both point to the same reference in memory.
 
 console.log(obj)
 
