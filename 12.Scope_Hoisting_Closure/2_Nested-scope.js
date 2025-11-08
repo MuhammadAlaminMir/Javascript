@@ -21,7 +21,7 @@ function test(){
 //a variable can't be use out of their scope
 
 //lexical scope means define a token to its scope
-// every word is a token and every token is called lexi 
+// every word is a token and every token is called lexical 
 
 //when js code compile that time js engine set every token scope thats call lexical scope
 
