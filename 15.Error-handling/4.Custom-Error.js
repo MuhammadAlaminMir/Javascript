@@ -1,20 +1,27 @@
-//Creating Own Custom Error
-
-class CustomError extends Error {
-    constructor(msg) {
-        super(msg);
-
-        if (Error.captureStackTrace) {
-            Error.captureStackTrace(this, CustomError);
-        }
-    }
+// 1. Define a custom error class
+class ValidationError extends Error {
+  constructor(message) {
+    super(message); // Call the parent Error constructor
+    this.name = "ValidationError"; // Set a custom name
+  }
 }
 
+// 2. Use your custom error in a function
+function setAge(age) {
+  if (!age || age < 0) {
+    throw new ValidationError("Age must be a positive number.");
+  }
+  // ... logic to set the age
+}
+
+// 3. Catch your specific error
 try {
-    console.log("I am line 1");
-    throw new Error("I am your error");
-    console.log("I am line 1");
-} catch (e) {
-    console.log(e.message);
-    console.log("this a custom err");
+  setAge(-5);
+} catch (error) {
+  if (error instanceof ValidationError) {
+    console.error(`Validation failed: ${error.message}`);
+  } else {
+    // Handle other unexpected errors
+    console.error("An unknown error occurred:", error);
+  }
 }
